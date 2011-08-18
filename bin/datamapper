@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'dm-adapter-gen/cli'
+DataMapper::CLI.start

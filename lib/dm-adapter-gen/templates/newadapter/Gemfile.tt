@@ -1,0 +1,7 @@
+source "http://rubygems.org"
+
+# TODO add common debug tools here specific to DM development
+# RSpec, ruby-debug?
+
+# Specify your gem's dependencies in <%=config[:name]%>.gemspec
+gemspec

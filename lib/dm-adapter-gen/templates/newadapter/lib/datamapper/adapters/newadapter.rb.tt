@@ -1,0 +1,13 @@
+module DataMapper
+  module Adapters
+    class <%= config[:constant_name] %>Adapter  
+      # Iteratively add more capabilities when developing this adapter
+      # will give you the best flow :)
+      capabilities :create => true #, 
+                   # :read => true,
+                   # :update => true,
+                   # :delete => true
+
+    end
+  end
+end

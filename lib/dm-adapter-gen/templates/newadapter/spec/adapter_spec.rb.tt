@@ -1,0 +1,5 @@
+require 'dm-core/spec/spec_helper'
+
+describe 'DataMapper::Adapters::<%= config[:constant_name] %>' do
+  it_should_behave_like "An Adapter"
+end
